@@ -1,5 +1,5 @@
 from modelos.cliente import Cliente
-from modelos.servicio import Servici
+from modelos.servicio import Servicio
 from modelos.reserva import Reserva
 
 def simular():

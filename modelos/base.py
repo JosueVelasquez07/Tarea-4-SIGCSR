@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class Entidad(ABC):
+class entidad(ABC):
 
     @abstractmethod
     def mostrar_info(self):

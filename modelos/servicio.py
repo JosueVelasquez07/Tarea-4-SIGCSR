@@ -1,6 +1,6 @@
-from .base import entidad   
+from .base import Entidad   
 
-class Servicio(entidad):
+class Servicio(Entidad):
     def __init__(self, id_servicio, nombre, precio):
         self.id_servicio = id_servicio
         self.nombre = nombre
